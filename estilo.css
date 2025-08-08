@@ -8,7 +8,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
-    font-family: var(--fonte1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header{
     background-color: black;
@@ -19,7 +19,7 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
-    font-family: var(--fonte2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 10vw;
 }
 
@@ -29,7 +29,7 @@ header > p{
 
 section.letra{
     background-color: white;
-    font-size: large;
+    font-size: 1.5em;
 }
 
 section.imagem {
@@ -45,6 +45,7 @@ section.imagem > p {
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
+    font-size: 1.5em;
 }
 
 
