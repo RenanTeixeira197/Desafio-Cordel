@@ -1,9 +1,4 @@
 @charset "UTF-8";
-body{
-    background-image: url(imagens/background001.jpg);
-    background-attachment: fixed;
-}
-
 * {
     margin: 0px;
     padding: 0px;
@@ -32,8 +27,9 @@ header > p{
    padding-bottom: 50px;
 }
 
-.letra{
+section.letra{
     background-color: white;
+    font-size: large;
 }
 
 section.imagem {
@@ -42,4 +38,20 @@ section.imagem {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
     background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+
+section#img01{
+    background-image: url(imagens/background001.jpg);
+}
+
+section#img02{
+    background-image: url(imagens/background002.jpg);
 }
